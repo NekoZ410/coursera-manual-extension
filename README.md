@@ -14,5 +14,8 @@ Manual tool to complete Coursera quizzes when your other automation tools not wo
 2. When the quiz UI appear, click extension icon, click `Solve quizzes` to start solve quizzes
 3. A frame will be injected into each quiz, use `Re-solve this question` if the response is unreasonable, or use `Copy question & answers` if the previous option doesn't help
 
+## Disclaimer
+> All answers are just information that Gemini searched for and each model has different knowledge cut off, so accuracy cannot reach 100% in all cases, use with caution and double check if necessary.
+
 ## Bugs
 I made this for myself and tried to cover all the bug cases I could think of, so if there are any bugs please submit an Issue =)))))
