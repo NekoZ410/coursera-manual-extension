@@ -1,5 +1,5 @@
 # Manual Coursera Tool
-Manual Coursera Tool to complete quizzes when your other automation tools not working =)))))
+Manual Coursera Tool to complete quizzes when your other automation tools not working :))))).
 
 ## Setup
 1. Clone or download this repo as zip then extract
@@ -20,4 +20,4 @@ Manual Coursera Tool to complete quizzes when your other automation tools not wo
 > All answers are information that Gemini can search and each model has a different knowledge cut-off, so accuracy cannot be 100% in all cases. Use with caution and always double check.
 
 ## Bugs
-I made this for myself and tried to cover all the bug cases I could think of, so if there are any bugs please submit an Issue =)))))
+I made this for myself and tried to cover all the bug cases I could think of, so if there are any bugs please submit an Issue.

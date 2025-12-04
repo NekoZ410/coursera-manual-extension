@@ -1,26 +1,13 @@
 // global: display info from manifest
-(function() {
-    // global: display info from manifest
+(function () {
     const manifest = chrome.runtime.getManifest(); // get manifest object
-
-    // get extension version
     const versionElement = document.getElementById("ext-ver");
-    if (versionElement) {
-        versionElement.textContent = manifest.version;
-    }
-
-    // get extension name
+    if (versionElement) versionElement.textContent = manifest.version; // extension version
     const nameElement = document.getElementById("ext-name");
-    if (nameElement) {
-        nameElement.textContent = manifest.name;
-    }
-    document.title = manifest.name; // set HTML title
-
-    // get extension repository URL
+    if (nameElement) nameElement.textContent = manifest.name; // extension name
+    document.title = manifest.name; // set popup HTML title
     const repoLink = document.getElementById("ext-repo");
-    if (repoLink && manifest.homepage_url) {
-        repoLink.href = manifest.homepage_url;
-    }
+    if (repoLink && manifest.homepage_url) repoLink.href = manifest.homepage_url; // extension repo URL
 })();
 
 // global: configuration saving and loading
